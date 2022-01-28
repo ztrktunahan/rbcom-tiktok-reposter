@@ -16,6 +16,7 @@ class RepostPage: UIViewController, UITextFieldDelegate {
     var textField = UITextField()
     private var videoModel: VideoModel?
     var videoAssets: URL?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -80,8 +81,8 @@ class RepostPage: UIViewController, UITextFieldDelegate {
         searchButton.addTarget(self, action: #selector(searchButtonClicked), for: UIControl.Event.touchUpInside)
         
         let subButton = UIButton ()
-        subButton.setTitle("Open Tiktok", for: UIControl.State.normal)
-        subButton.setTitleColor(UIColor.lightGray, for: UIControl.State.normal)
+        subButton.setTitle("Open TikTok", for: UIControl.State.normal)
+        subButton.setTitleColor(UIColor.black, for: UIControl.State.normal)
         subButton.frame = CGRect (x: 0.1 * screenWidth, y: 0.9 * screenHeight, width: 0.8 * screenWidth, height: 0.045 * screenHeight)
         view.addSubview(subButton)
         subButton.addTarget(self, action: #selector(openTiktokClicked), for: UIControl.Event.touchUpInside)

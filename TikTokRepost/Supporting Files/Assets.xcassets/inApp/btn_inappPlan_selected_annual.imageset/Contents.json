@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "btn_inappPlan_selected_annual.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "btn_inappPlan_selected_annual@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "btn_inappPlan_selected_annual@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

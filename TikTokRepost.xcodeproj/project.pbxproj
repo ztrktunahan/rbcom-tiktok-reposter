@@ -118,7 +118,7 @@
 		43575A8027A175B200E037F5 /* StoreKitOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreKitOperations.swift; sourceTree = "<group>"; };
 		43575A8227A2D49900E037F5 /* animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation.json; sourceTree = "<group>"; };
 		4369252126F3784100757026 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
-		43FCF5CA2782117A000F5DE4 /* TikTokFeed.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TikTokFeed.xcframework; path = "../../Ashwani/ashwani-tiktok-reposter-2/TikStats/TikTokFeed.xcframework"; sourceTree = "<group>"; };
+		43FCF5CA2782117A000F5DE4 /* TikTokFeed.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TikTokFeed.xcframework; path = TikTokRepost/TikTokFeed.xcframework; sourceTree = "<group>"; };
 		91B9D03627204B8B0082AB27 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		91B9D03727204B8C0082AB27 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
 		91B9D03827204B8C0082AB27 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };

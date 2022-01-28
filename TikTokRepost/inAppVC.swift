@@ -13,6 +13,13 @@ import Firebase
 
 class inAppVC: UIViewController {
     
+    var choosen = false
+    var isAnnualSelected = false
+    var isMonthlySelected = false
+    let monthlyPlanButton = UIButton()
+    let annualPlanButton = UIButton()
+
+
  
 
     override func viewDidLoad() {
@@ -62,7 +69,6 @@ class inAppVC: UIViewController {
        
         // MONTHLY PLAN
         
-        let monthlyPlanButton = UIButton()
         monthlyPlanButton.setBackgroundImage(UIImage(named: "btn_monthly"), for: UIControl.State.normal)
         monthlyPlanButton.frame = CGRect(x: 0.05 * screenWidth, y: 0.6 * screenHeight, width: 0.45 * screenWidth, height: 0.2 * screenHeight)
         view.addSubview(monthlyPlanButton)
@@ -88,7 +94,6 @@ class inAppVC: UIViewController {
         view.addSubview(monthlyPriceLabel)
         //ANNUAL PLANI!
         
-        let annualPlanButton = UIButton()
         annualPlanButton.setBackgroundImage(UIImage(named: "btn_annual"), for: UIControl.State.normal)
         annualPlanButton.frame = CGRect(x: 0.5 * screenWidth, y: 0.6 * screenHeight, width: 0.45 * screenWidth, height: 0.2 * screenHeight)
         annualPlanButton.layer.shadowColor = UIColor(red: 0.44, green: 0.56, blue: 0.69, alpha: 0.20).cgColor
@@ -191,7 +196,7 @@ class inAppVC: UIViewController {
         
         monthlyPlanButton.addTarget(self, action: #selector(monthlyPlanButtonClicked), for: UIControl.Event.touchUpInside)
         annualPlanButton.addTarget(self, action: #selector(annualPlanButtonClicked), for: UIControl.Event.touchUpInside)
-        startButton.addTarget(self, action: #selector(annualPlanButtonClicked), for: UIControl.Event.touchUpInside)
+        startButton.addTarget(self, action: #selector(startButtonClicked), for: UIControl.Event.touchUpInside)
 
 
    
@@ -236,19 +241,103 @@ class inAppVC: UIViewController {
          }
     @objc func monthlyPlanButtonClicked() {
         
-        StoreKitOperations().purchaseProduct(productID : monthlyProductID, viewController : self)
+                if isAnnualSelected {
+                  isAnnualSelected = false
+                   
+                    annualPlanButton.setBackgroundImage(UIImage(named: "btn_annual"), for: .normal)
+                   
+                  isMonthlySelected = true
+                   
+                    monthlyPlanButton.setBackgroundImage(UIImage(named: "btn_inappPlan_selected_monthly"), for: UIControl.State.normal)
+                  let generator = UIImpactFeedbackGenerator(style: .heavy)
+                  generator.impactOccurred()
+                    
+                    choosen = true
+                   
+                }else {
+                   
+                  isAnnualSelected = false
+                   
+                    monthlyPlanButton.setBackgroundImage(UIImage(named: "btn_monthly"), for: .normal)
+                   
+                  isMonthlySelected = true
+                   
+                    monthlyPlanButton.setBackgroundImage(UIImage(named: "btn_inappPlan_selected_monthly"), for: UIControl.State.normal)
+                  let generator = UIImpactFeedbackGenerator(style: .heavy)
+                  generator.impactOccurred()
+                    
+                    choosen = true
+                }
+                    // StoreKitOperations().purchaseProduct(productID : monthlyProductID, viewController : self)
 
+              }
         
-    }
+
     @objc func annualPlanButtonClicked() {
-        
-        StoreKitOperations().purchaseProduct(productID : annualProductID, viewController : self)
+                 
+                 
+                if isMonthlySelected {
+                   
+                  isMonthlySelected = false
+                   
+                    monthlyPlanButton.setBackgroundImage(UIImage(named: "btn_monthly"), for: UIControl.State.normal)
+                   
+                  isAnnualSelected = true
+                    
+                annualPlanButton.setBackgroundImage(UIImage(named: "btn_inappPlan_selected_annual"), for: .normal)
+                  let generator = UIImpactFeedbackGenerator(style: .heavy)
+                  generator.impactOccurred()
+                    
+                    choosen = true
+                   
+                }else{
+                   
+                  isMonthlySelected = false
+                   
+                    annualPlanButton.setBackgroundImage(UIImage(named: "btn_annual"), for: UIControl.State.normal)
+                    
+                  isAnnualSelected = true
+                    annualPlanButton.setBackgroundImage(UIImage(named: "btn_inappPlan_selected_annual"), for: .normal)
+                  let generator = UIImpactFeedbackGenerator(style: .heavy)
+                  generator.impactOccurred()
+                    
+                    choosen = true
+                }
+               
+              
+       // StoreKitOperations().purchaseProduct(productID : annualProductID, viewController : self)
 
     }
     
-    @objc func startButtonClicked() {
-        
-        StoreKitOperations().purchaseProduct(productID : annualProductID, viewController : self)
+    @objc func startButtonClicked()
+    {
+          
+            
+            if choosen == false {
+                
+                let alert = UIAlertController(title: "Choose a plan!", message: "You need to choose a plan to continue!", preferredStyle: UIAlertController.Style.alert)
+                alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+            
+            } else if choosen {
+                if isAnnualSelected == true {
+                    
+                    StoreKitOperations().purchaseProduct(productID : annualProductID, viewController : self)
 
-    }
+                    
+                }
+                else if isMonthlySelected == true {
+                    StoreKitOperations().purchaseProduct(productID : monthlyProductID, viewController : self)
+                }
+                    
+                
+            //    performSegue(withIdentifier: "inAppToMain", sender: nil)
+            }
+        }
+        
+
+        
+        //        StoreKitOperations().purchaseProduct(productID : annualProductID, viewController : self)
+
+    
 }
