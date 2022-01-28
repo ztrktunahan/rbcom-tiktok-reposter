@@ -1,0 +1,255 @@
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="HashtagsForInstagramSwift/Interface/Base.lproj/Main.storyboard">
+    <header>
+      <tool build-num="12D4e" tool-version="12.4" tool-id="com.apple.dt.xcode" tool-name="Xcode"/>
+    </header>
+    <body>
+      <trans-unit id="0td-hK-EUI.title" xml:space="preserve"><source>InstRepost</source>
+<target>ИнстRepost</target>
+<note>Class = "UINavigationItem"; title = "InstRepost"; ObjectID = "0td-hK-EUI";</note></trans-unit>
+      <trans-unit id="2SW-O3-xTA.text" xml:space="preserve"><source>Detail</source>
+<target>Detail</target>
+<note>Class = "UILabel"; text = "Detail"; ObjectID = "2SW-O3-xTA";</note></trans-unit>
+      <trans-unit id="4oj-Rg-fHX.text" xml:space="preserve"><source>Without advertising</source>
+<target>Никакой рекламы</target>
+<note>Class = "UILabel"; text = "Without advertising"; ObjectID = "4oj-Rg-fHX";</note></trans-unit>
+      <trans-unit id="7nD-cy-kIi.title" xml:space="preserve"><source>Settings</source>
+<target>Настройки</target>
+<note>Class = "UINavigationItem"; title = "Settings"; ObjectID = "7nD-cy-kIi";</note></trans-unit>
+      <trans-unit id="BjX-eY-CAP.text" xml:space="preserve"><source>#</source>
+<target>#</target>
+<note>Class = "UITextView"; text = "#"; ObjectID = "BjX-eY-CAP";</note></trans-unit>
+      <trans-unit id="EIa-gR-IGp.placeholder" xml:space="preserve"><source>Title</source>
+<target>Название</target>
+<note>Class = "UITextField"; placeholder = "Title"; ObjectID = "EIa-gR-IGp";</note></trans-unit>
+      <trans-unit id="HBz-vm-Mpf.text" xml:space="preserve"><source>Premium</source>
+<target>Премиум</target>
+<note>Class = "UILabel"; text = "Premium"; ObjectID = "HBz-vm-Mpf";</note></trans-unit>
+      <trans-unit id="MwO-pb-SBg.normalTitle" xml:space="preserve"><source>Privacy Policy</source>
+<target>Privacy Policy</target>
+<note>Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "MwO-pb-SBg";</note></trans-unit>
+      <trans-unit id="NpH-iM-8gk.title" xml:space="preserve"><source>New hashtag</source>
+<target>Новый хештэг</target>
+<note>Class = "UINavigationItem"; title = "New hashtag"; ObjectID = "NpH-iM-8gk";</note></trans-unit>
+      <trans-unit id="Pn9-Ee-S4T.text" xml:space="preserve"><source>Popular hashtags</source>
+<target>Популярные хештэги</target>
+<note>Class = "UILabel"; text = "Popular hashtags"; ObjectID = "Pn9-Ee-S4T";</note></trans-unit>
+      <trans-unit id="UHt-jF-Yqv.normalTitle" xml:space="preserve"><source>Terms of Use</source>
+<target>Terms of Use</target>
+<note>Class = "UIButton"; normalTitle = "Terms of Use"; ObjectID = "UHt-jF-Yqv";</note></trans-unit>
+      <trans-unit id="g2d-p6-x3o.normalTitle" xml:space="preserve"><source>Year premium</source>
+<target>Premium год</target>
+<note>Class = "UIButton"; normalTitle = "Year premium"; ObjectID = "g2d-p6-x3o";</note></trans-unit>
+      <trans-unit id="ge7-c6-sU4.text" xml:space="preserve"><source>Best quality</source>
+<target>Лучшее качество</target>
+<note>Class = "UILabel"; text = "Best quality"; ObjectID = "ge7-c6-sU4";</note></trans-unit>
+      <trans-unit id="hVT-LM-xJZ.text" xml:space="preserve"><source>Title</source>
+<target>Название</target>
+<note>Class = "UILabel"; text = "Title"; ObjectID = "hVT-LM-xJZ";</note></trans-unit>
+      <trans-unit id="kf7-wW-Dim.text" xml:space="preserve"><source>Subscription automatically renews unless auto-renewal is canceled at least 24 hours before the end of the period. Subscriptions can be managed in your account settings.</source>
+<target>Подписка продлевается автоматически, если автопродление не отменить минимум за 24 часа до конца текущего периода. Подписками можно управлять в настройках Вашего аккаунта.</target>
+<note>Class = "UITextView"; text = "Subscription automatically renews unless auto-renewal is canceled at least 24 hours before the end of the period. Subscriptions can be managed in your account settings."; ObjectID = "kf7-wW-Dim";</note></trans-unit>
+      <trans-unit id="mgE-NW-uF1.normalTitle" xml:space="preserve"><source>Restore purchases</source>
+<target>Восстановить покупки</target>
+<note>Class = "UIButton"; normalTitle = "Restore purchases"; ObjectID = "mgE-NW-uF1";</note></trans-unit>
+      <trans-unit id="nD1-cS-CV8.segmentTitles[0]" xml:space="preserve"><source>All</source>
+<target>Все</target>
+<note>Class = "UISegmentedControl"; nD1-cS-CV8.segmentTitles[0] = "All"; ObjectID = "nD1-cS-CV8";</note></trans-unit>
+      <trans-unit id="nD1-cS-CV8.segmentTitles[1]" xml:space="preserve"><source>My</source>
+<target>Мои</target>
+<note>Class = "UISegmentedControl"; nD1-cS-CV8.segmentTitles[1] = "My"; ObjectID = "nD1-cS-CV8";</note></trans-unit>
+      <trans-unit id="nG2-5f-EJb.text" xml:space="preserve"><source>InstRepost for Instagram</source>
+<target>ИнстRepost для Инстаграм</target>
+<note>Class = "UILabel"; text = "InstRepost for Instagram"; ObjectID = "nG2-5f-EJb";</note></trans-unit>
+      <trans-unit id="onE-nS-K8B.text" xml:space="preserve"><source>Repost without limits</source>
+<target>Репост без ограничений</target>
+<note>Class = "UILabel"; text = "Repost without limits"; ObjectID = "onE-nS-K8B";</note></trans-unit>
+      <trans-unit id="uOZ-uX-gRU.text" xml:space="preserve"><source>Label</source>
+<target>Label</target>
+<note>Class = "UILabel"; text = "Label"; ObjectID = "uOZ-uX-gRU";</note></trans-unit>
+      <trans-unit id="v2G-sn-SuD.normalTitle" xml:space="preserve"><source>Month premium</source>
+<target>Premium месяц</target>
+<note>Class = "UIButton"; normalTitle = "Month premium"; ObjectID = "v2G-sn-SuD";</note></trans-unit>
+      <trans-unit id="xdK-DU-wTM.title" xml:space="preserve"><source>Hashtags</source>
+<target>Хештэги</target>
+<note>Class = "UINavigationItem"; title = "Hashtags"; ObjectID = "xdK-DU-wTM";</note></trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="HashtagsForInstagramSwift/Interface/Base.lproj/Toolbar.xib">
+    <header>
+      <tool build-num="12D4e" tool-version="12.4" tool-id="com.apple.dt.xcode" tool-name="Xcode"/>
+    </header>
+    <body>
+      <trans-unit id="QAW-iK-h2r.normalTitle" xml:space="preserve"><source>Save</source>
+<target>Сохранить</target>
+<note>Class = "UIButton"; normalTitle = "Save"; ObjectID = "QAW-iK-h2r";</note></trans-unit>
+      <trans-unit id="fU5-Sm-Tx4.normalTitle" xml:space="preserve"><source>Cancel</source>
+<target>Отмена</target>
+<note>Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "fU5-Sm-Tx4";</note></trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="HashtagsForInstagramSwift/Supporting Files/en.lproj/InfoPlist.strings">
+    <header>
+      <tool build-num="12D4e" tool-version="12.4" tool-id="com.apple.dt.xcode" tool-name="Xcode"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve"><source>InstRepost</source>
+<target>ИнстRepost</target>
+<note>Bundle display name</note></trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve"><source>HashtagsForInstagramSwift</source>
+<target>ИнстRepost</target>
+<note>Bundle name</note></trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="HashtagsForInstagramSwift/Supporting Files/en.lproj/Localizable.strings">
+    <header>
+      <tool build-num="12D4e" tool-version="12.4" tool-id="com.apple.dt.xcode" tool-name="Xcode"/>
+    </header>
+    <body>
+      <trans-unit id="Active" xml:space="preserve"><source>Active</source>
+<target>Активен</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Added" xml:space="preserve"><source>Added</source>
+<target>Добавлено</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Adds taptic feedback to various actions in the app." xml:space="preserve"><source>Adds taptic feedback to various actions in the app.</source>
+<target>Добавляет тактильную отдачу на различные действия в приложении.</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="App" xml:space="preserve"><source>App</source>
+<target>Приложение</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="App color" xml:space="preserve"><source>App color</source>
+<target>Цвет прилоежния</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Automatically" xml:space="preserve"><source>Automatically</source>
+<target>Автоматически</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Contact developer" xml:space="preserve"><source>Contact developer</source>
+<target>Написать автору</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Copied" xml:space="preserve"><source>Copied</source>
+<target>Скопировано</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Copy" xml:space="preserve"><source>Copy</source>
+<target>Скопировать</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Copy link" xml:space="preserve"><source>Copy link</source>
+<target>Скопировать ссылку</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Dark Theme" xml:space="preserve"><source>Dark Theme</source>
+<target>Всегда тёмная</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Data" xml:space="preserve"><source>Data</source>
+<target>Данные</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Delete" xml:space="preserve"><source>Delete</source>
+<target>Удалить</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Feedback" xml:space="preserve"><source>Feedback</source>
+<target>Поддержка</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="First new" xml:space="preserve"><source>First new</source>
+<target>Сначала новые</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="First old" xml:space="preserve"><source>First old</source>
+<target>Сначала старые</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Got it" xml:space="preserve"><source>Got it</source>
+<target>Отлично</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Hard" xml:space="preserve"><source>Hard</source>
+<target>Сильная</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Insert post link" xml:space="preserve"><source>Insert post link</source>
+<target>Вставьте ссылку на пост</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Interface" xml:space="preserve"><source>Interface</source>
+<target>Внешний вид</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Light" xml:space="preserve"><source>Light</source>
+<target>Лёгкая</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Light &amp; Dark theme" xml:space="preserve"><source>Light &amp; Dark theme</source>
+<target>Светлая и Тёмная тема</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Light Theme" xml:space="preserve"><source>Light Theme</source>
+<target>Всегда светлая</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Media history" xml:space="preserve"><source>Media history</source>
+<target>История сохранений</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Medium" xml:space="preserve"><source>Medium</source>
+<target>Средняя</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="More apps" xml:space="preserve"><source>More apps</source>
+<target>Ещё приложения</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Next" xml:space="preserve"><source>Next</source>
+<target>Далее</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Not active" xml:space="preserve"><source>Not active</source>
+<target>Не активен</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Open instagram" xml:space="preserve"><source>Open instagram</source>
+<target>Открыть инстаграм</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Post link" xml:space="preserve"><source>Post link</source>
+<target>Ссылка на пост</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Premium" xml:space="preserve"><source>Premium</source>
+<target>Премиум</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Premium is active" xml:space="preserve"><source>Premium is active</source>
+<target>Премиум активен</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Preview" xml:space="preserve"><source>Preview</source>
+<target>Предпросмотр</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Private account. Try another" xml:space="preserve"><source>Private account. Try another</source>
+<target>Приватный аккаунт. Попробуйте другой.</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Repost" xml:space="preserve"><source>Repost</source>
+<target>Репост</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Share app" xml:space="preserve"><source>Share app</source>
+<target>Поделиться приложением</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Sort" xml:space="preserve"><source>Sort</source>
+<target>Сортировка</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Taptic Engine" xml:space="preserve"><source>Taptic Engine</source>
+<target>Тактильная отдача</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Taptic Force" xml:space="preserve"><source>Taptic Force</source>
+<target>Сила отдачи</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="To repost the photo, you need to copy the link from instagram and paste it here." xml:space="preserve"><source>To repost the photo, you need to copy the link from instagram and paste it here.</source>
+<target>Чтобы сделать репост фото, вам нужно скопировать ссылку из инстаграм и вставить ее сюда.</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="When the switch is on, the system apperance is used." xml:space="preserve"><source>When the switch is on, the system apperance is used.</source>
+<target>При включенном индикаторе повторяется системное оформление.</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Write a review" xml:space="preserve"><source>Write a review</source>
+<target>Оставить отзыв</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="You have unlocked all features of app!" xml:space="preserve"><source>You have unlocked all features of app!</source>
+<target>Вам доступны все премиум функции приложения!</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="day" xml:space="preserve"><source>day</source>
+<target>день</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="month" xml:space="preserve"><source>month</source>
+<target>месяц</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="then" xml:space="preserve"><source>then</source>
+<target>потом</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="trial" xml:space="preserve"><source>trial</source>
+<target>бесплатно</target>
+<note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="week" xml:space="preserve"><source>week</source>
+<target>неделя</target>
+<note>No comment provided by engineer.</note></trans-unit>
+    </body>
+  </file>
+</xliff>

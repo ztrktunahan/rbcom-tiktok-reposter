@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="HashtagsForInstagramSwift/Interface/Base.lproj/Main.storyboard" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="0td-hK-EUI.title" xml:space="preserve">
+        <source>InstSaver</source>
+        <target>InstSaver</target>
+        <note>Class = "UINavigationItem"; title = "InstSaver"; ObjectID = "0td-hK-EUI";</note>
+      </trans-unit>
+      <trans-unit id="2SW-O3-xTA.text" xml:space="preserve">
+        <source>Detail</source>
+        <target>Detail</target>
+        <note>Class = "UILabel"; text = "Detail"; ObjectID = "2SW-O3-xTA";</note>
+      </trans-unit>
+      <trans-unit id="7nD-cy-kIi.title" xml:space="preserve">
+        <source>Settings</source>
+        <target>Settings</target>
+        <note>Class = "UINavigationItem"; title = "Settings"; ObjectID = "7nD-cy-kIi";</note>
+      </trans-unit>
+      <trans-unit id="BjX-eY-CAP.text" xml:space="preserve">
+        <source>#</source>
+        <target>#</target>
+        <note>Class = "UITextView"; text = "#"; ObjectID = "BjX-eY-CAP";</note>
+      </trans-unit>
+      <trans-unit id="EIa-gR-IGp.placeholder" xml:space="preserve">
+        <source>Title</source>
+        <target>Title</target>
+        <note>Class = "UITextField"; placeholder = "Title"; ObjectID = "EIa-gR-IGp";</note>
+      </trans-unit>
+      <trans-unit id="NpH-iM-8gk.title" xml:space="preserve">
+        <source>New hashtag</source>
+        <target>New hashtag</target>
+        <note>Class = "UINavigationItem"; title = "New hashtag"; ObjectID = "NpH-iM-8gk";</note>
+      </trans-unit>
+      <trans-unit id="hVT-LM-xJZ.text" xml:space="preserve">
+        <source>Title</source>
+        <target>Title</target>
+        <note>Class = "UILabel"; text = "Title"; ObjectID = "hVT-LM-xJZ";</note>
+      </trans-unit>
+      <trans-unit id="nD1-cS-CV8.segmentTitles[0]" xml:space="preserve">
+        <source>All</source>
+        <target>All</target>
+        <note>Class = "UISegmentedControl"; nD1-cS-CV8.segmentTitles[0] = "All"; ObjectID = "nD1-cS-CV8";</note>
+      </trans-unit>
+      <trans-unit id="nD1-cS-CV8.segmentTitles[1]" xml:space="preserve">
+        <source>My</source>
+        <target>My</target>
+        <note>Class = "UISegmentedControl"; nD1-cS-CV8.segmentTitles[1] = "My"; ObjectID = "nD1-cS-CV8";</note>
+      </trans-unit>
+      <trans-unit id="uOZ-uX-gRU.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "uOZ-uX-gRU";</note>
+      </trans-unit>
+      <trans-unit id="xdK-DU-wTM.title" xml:space="preserve">
+        <source>Hashtags</source>
+        <target>Hashtags</target>
+        <note>Class = "UINavigationItem"; title = "Hashtags"; ObjectID = "xdK-DU-wTM";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="HashtagsForInstagramSwift/Supporting Files/en.lproj/InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve">
+        <source>InstSaver</source>
+        <target>InstSaver</target>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>HashtagsForInstagramSwift</source>
+        <target>HashtagsForInstagramSwift</target>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryAddUsageDescription" xml:space="preserve">
+        <source>InstSaver need access to save photo and video to Photo Library.</source>
+        <target>InstSaver need access to save photo and video to Photo Library.</target>
+        <note>Privacy - Photo Library Additions Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryUsageDescription" xml:space="preserve">
+        <source>InstSaver need access to save photo and video to Photo Library.</source>
+        <target>InstSaver need access to save photo and video to Photo Library.</target>
+        <note>Privacy - Photo Library Usage Description</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="HashtagsForInstagramSwift/Supporting Files/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="Adds taptic feedback to various actions in the app." xml:space="preserve">
+        <source>Adds taptic feedback to various actions in the app.</source>
+        <target>Adds taptic feedback to various actions in the app.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="App" xml:space="preserve">
+        <source>App</source>
+        <target>App</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="App color" xml:space="preserve">
+        <source>App color</source>
+        <target>App color</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Automatically" xml:space="preserve">
+        <source>Automatically</source>
+        <target>Automatically</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Contact developer" xml:space="preserve">
+        <source>Contact developer</source>
+        <target>Contact developer</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Copy" xml:space="preserve">
+        <source>Copy</source>
+        <target>Copy</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Dark Theme" xml:space="preserve">
+        <source>Dark Theme</source>
+        <target>Dark Theme</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Data" xml:space="preserve">
+        <source>Data</source>
+        <target>Data</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Delete" xml:space="preserve">
+        <source>Delete</source>
+        <target>Delete</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Deselect all" xml:space="preserve">
+        <source>Deselect all</source>
+        <target>Deselect all</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Feedback" xml:space="preserve">
+        <source>Feedback</source>
+        <target>Feedback</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="First new" xml:space="preserve">
+        <source>First new</source>
+        <target>First new</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="First old" xml:space="preserve">
+        <source>First old</source>
+        <target>First old</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Hard" xml:space="preserve">
+        <source>Hard</source>
+        <target>Hard</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Insert post link" xml:space="preserve">
+        <source>Insert post link</source>
+        <target>Insert post link</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Interface" xml:space="preserve">
+        <source>Interface</source>
+        <target>Interface</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Light" xml:space="preserve">
+        <source>Light</source>
+        <target>Light</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Light &amp; Dark theme" xml:space="preserve">
+        <source>Light &amp; Dark theme</source>
+        <target>Light &amp; Dark theme</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Light Theme" xml:space="preserve">
+        <source>Light Theme</source>
+        <target>Light Theme</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Media history" xml:space="preserve">
+        <source>Media history</source>
+        <target>Media history</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Medium" xml:space="preserve">
+        <source>Medium</source>
+        <target>Medium</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="More apps" xml:space="preserve">
+        <source>More apps</source>
+        <target>More apps</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Next" xml:space="preserve">
+        <source>Next</source>
+        <target>Next</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Open instagram" xml:space="preserve">
+        <source>Open instagram</source>
+        <target>Open instagram</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Post link" xml:space="preserve">
+        <source>Post link</source>
+        <target>Post link</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Preview" xml:space="preserve">
+        <source>Preview</source>
+        <target>Preview</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Save" xml:space="preserve">
+        <source>Save</source>
+        <target>Save</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Save %d/%d" xml:space="preserve">
+        <source>Save %1$d/%2$d</source>
+        <target>Save %1$d/%2$d</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Save all" xml:space="preserve">
+        <source>Save all</source>
+        <target>Save all</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Select all" xml:space="preserve">
+        <source>Select all</source>
+        <target>Select all</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Sort" xml:space="preserve">
+        <source>Sort</source>
+        <target>Sort</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Taptic Engine" xml:space="preserve">
+        <source>Taptic Engine</source>
+        <target>Taptic Engine</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Taptic Force" xml:space="preserve">
+        <source>Taptic Force</source>
+        <target>Taptic Force</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="To save the photo, you need to copy the link from instagram and paste it here." xml:space="preserve">
+        <source>To save the photo, you need to copy the link from instagram and paste it here.</source>
+        <target>To save the photo, you need to copy the link from instagram and paste it here.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="When the switch is on, the system apperance is used." xml:space="preserve">
+        <source>When the switch is on, the system apperance is used.</source>
+        <target>When the switch is on, the system apperance is used.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Write a review" xml:space="preserve">
+        <source>Write a review</source>
+        <target>Write a review</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="StoriesShareExtension/en.lproj/InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve">
+        <source>InstSaver</source>
+        <target>InstSaver</target>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>StoriesShareExtension</source>
+        <target>StoriesShareExtension</target>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="StoriesShareExtension/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="Copy" xml:space="preserve">
+        <source>Copy</source>
+        <target>Copy</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Deselect all" xml:space="preserve">
+        <source>Deselect all</source>
+        <target>Deselect all</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Insert post link" xml:space="preserve">
+        <source>Insert post link</source>
+        <target>Insert post link</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Next" xml:space="preserve">
+        <source>Next</source>
+        <target>Next</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Open instagram" xml:space="preserve">
+        <source>Open instagram</source>
+        <target>Open instagram</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Post link" xml:space="preserve">
+        <source>Post link</source>
+        <target>Post link</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Preview" xml:space="preserve">
+        <source>Preview</source>
+        <target>Preview</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Save" xml:space="preserve">
+        <source>Save</source>
+        <target>Save</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Save %d/%d" xml:space="preserve">
+        <source>Save %1$d/%2$d</source>
+        <target>Save %1$d/%2$d</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Save all" xml:space="preserve">
+        <source>Save all</source>
+        <target>Save all</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Select all" xml:space="preserve">
+        <source>Select all</source>
+        <target>Select all</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="To save the photo, you need to copy the link from instagram and paste it here." xml:space="preserve">
+        <source>To save the photo, you need to copy the link from instagram and paste it here.</source>
+        <target>To save the photo, you need to copy the link from instagram and paste it here.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

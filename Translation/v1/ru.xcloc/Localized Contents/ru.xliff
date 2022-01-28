@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="HashtagsForInstagramSwift/Interface/Base.lproj/Main.storyboard" source-language="en" target-language="ru" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="0td-hK-EUI.title" xml:space="preserve">
+        <source>InstSaver</source>
+        <note>Class = "UINavigationItem"; title = "InstSaver"; ObjectID = "0td-hK-EUI";</note>
+      </trans-unit>
+      <trans-unit id="BjX-eY-CAP.text" xml:space="preserve">
+        <source>#</source>
+        <target>#</target>
+        <note>Class = "UITextView"; text = "#"; ObjectID = "BjX-eY-CAP";</note>
+      </trans-unit>
+      <trans-unit id="EIa-gR-IGp.placeholder" xml:space="preserve">
+        <source>Название</source>
+        <target>Название</target>
+        <note>Class = "UITextField"; placeholder = "Название"; ObjectID = "EIa-gR-IGp";</note>
+      </trans-unit>
+      <trans-unit id="EIa-gR-IGp.text" xml:space="preserve">
+        <source>Title</source>
+        <note>Class = "UITextField"; text = "Title"; ObjectID = "EIa-gR-IGp";</note>
+      </trans-unit>
+      <trans-unit id="NpH-iM-8gk.title" xml:space="preserve">
+        <source>New hashtag</source>
+        <note>Class = "UINavigationItem"; title = "New hashtag"; ObjectID = "NpH-iM-8gk";</note>
+      </trans-unit>
+      <trans-unit id="hVT-LM-xJZ.text" xml:space="preserve">
+        <source>Title</source>
+        <target>Title</target>
+        <note>Class = "UILabel"; text = "Title"; ObjectID = "hVT-LM-xJZ";</note>
+      </trans-unit>
+      <trans-unit id="nD1-cS-CV8.segmentTitles[0]" xml:space="preserve">
+        <source>All</source>
+        <note>Class = "UISegmentedControl"; nD1-cS-CV8.segmentTitles[0] = "All"; ObjectID = "nD1-cS-CV8";</note>
+      </trans-unit>
+      <trans-unit id="nD1-cS-CV8.segmentTitles[1]" xml:space="preserve">
+        <source>My</source>
+        <note>Class = "UISegmentedControl"; nD1-cS-CV8.segmentTitles[1] = "My"; ObjectID = "nD1-cS-CV8";</note>
+      </trans-unit>
+      <trans-unit id="xdK-DU-wTM.title" xml:space="preserve">
+        <source>Hashtags</source>
+        <note>Class = "UINavigationItem"; title = "Hashtags"; ObjectID = "xdK-DU-wTM";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="HashtagsForInstagramSwift/Supporting Files/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve">
+        <source>Instagram Saver</source>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>HashtagsForInstagramSwift</source>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryAddUsageDescription" xml:space="preserve">
+        <source>ИнстSaver нужен доступ, чтобы сохранять фото и видео в фотопленку.</source>
+        <note>Privacy - Photo Library Additions Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryUsageDescription" xml:space="preserve">
+        <source>ИнстSaver нужен доступ, чтобы сохранять фото и видео в фотопленку.</source>
+        <note>Privacy - Photo Library Usage Description</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="HashtagsForInstagramSwift/Supporting Files/en.lproj/Localizable.strings" datatype="plaintext" source-language="en" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="Delete" xml:space="preserve">
+        <source>Delete</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="StoriesShareExtension/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve">
+        <source>StoriesShareExtension</source>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>StoriesShareExtension</source>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

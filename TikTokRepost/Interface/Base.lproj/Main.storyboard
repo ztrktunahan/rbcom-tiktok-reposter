@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mQs-P1-4rs">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Repost-->
+        <scene sceneID="wPd-Km-GDr">
+            <objects>
+                <viewController storyboardIdentifier="RepostVC" modalPresentationStyle="fullScreen" id="j1P-Bh-bq2" customClass="RepostController" customModule="TikTokRepost" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ddt-sH-PB5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="SvQ-NR-0ud">
+                                <rect key="frame" x="0.0" y="150" width="375" height="662"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ms0-hp-GAG">
+                                    <size key="itemSize" width="172" height="207"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="tyb-dN-nMh" customClass="MediaCell" customModule="TikTokRepost" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="172" height="207"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="172" height="207"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aKh-LE-dtP">
+                                                    <rect key="frame" x="0.0" y="0.0" width="172" height="207"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="127-Dv-LYT">
+                                                            <rect key="frame" x="0.0" y="0.0" width="172" height="207"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="127-Dv-LYT" secondAttribute="trailing" id="5Dk-Xw-871"/>
+                                                        <constraint firstAttribute="bottom" secondItem="127-Dv-LYT" secondAttribute="bottom" id="BP2-ty-tPh"/>
+                                                        <constraint firstItem="127-Dv-LYT" firstAttribute="top" secondItem="aKh-LE-dtP" secondAttribute="top" id="Zyg-mQ-B7F"/>
+                                                        <constraint firstItem="127-Dv-LYT" firstAttribute="leading" secondItem="aKh-LE-dtP" secondAttribute="leading" id="rgI-xj-P3k"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                        </view>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="aKh-LE-dtP" firstAttribute="leading" secondItem="tyb-dN-nMh" secondAttribute="leading" id="1Ei-zK-KDu"/>
+                                            <constraint firstItem="aKh-LE-dtP" firstAttribute="top" secondItem="tyb-dN-nMh" secondAttribute="top" id="AOk-rP-Obl"/>
+                                            <constraint firstAttribute="trailing" secondItem="aKh-LE-dtP" secondAttribute="trailing" id="QBw-GH-3tJ"/>
+                                            <constraint firstAttribute="bottom" secondItem="aKh-LE-dtP" secondAttribute="bottom" id="koJ-hz-D7g"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="imageView" destination="127-Dv-LYT" id="iCh-Hq-N31"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="j1P-Bh-bq2" id="0sC-PY-VEM"/>
+                                    <outlet property="delegate" destination="j1P-Bh-bq2" id="QhH-a9-prr"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="f0g-c1-hiY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Repost" id="0td-hK-EUI">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="settings.small" id="IdW-Ww-9oj">
+                            <connections>
+                                <segue destination="9nh-7q-O1j" kind="show" identifier="toSettings" id="wV3-7u-8Kb"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="trash" id="viY-zK-48h">
+                            <connections>
+                                <action selector="trashAction:" destination="j1P-Bh-bq2" id="kgX-KS-4zC"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="collectionView" destination="SvQ-NR-0ud" id="vo0-bV-i5A"/>
+                        <outlet property="settingsButton" destination="IdW-Ww-9oj" id="Ivd-dg-J90"/>
+                        <outlet property="trashButton" destination="viY-zK-48h" id="VBh-zN-lcQ"/>
+                        <segue destination="zgB-Ae-Q4Z" kind="show" identifier="toReposting" id="zXr-jJ-elQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1aJ-ur-cX8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-703.20000000000005" y="824.6305418719212"/>
+        </scene>
+        <!--Repost-->
+        <scene sceneID="2cV-7T-uJh">
+            <objects>
+                <tableViewController storyboardIdentifier="PreviewController" modalPresentationStyle="fullScreen" id="7R4-TR-Bed" customClass="PreviewController" customModule="TikTokRepost" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" directionalLockEnabled="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="static" style="insetGrouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="8" sectionFooterHeight="8" id="rxF-Av-dEU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <sections>
+                            <tableViewSection id="x5T-Dy-Yqc">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="284" id="9o5-NH-M1U">
+                                        <rect key="frame" x="16" y="8" width="343" height="284"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9o5-NH-M1U" id="9MN-qD-EsL">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="284"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Z5-l7-zVD">
+                                                    <rect key="frame" x="0.0" y="50" width="343" height="234"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="8Z5-l7-zVD" secondAttribute="bottom" id="83M-6T-cgY"/>
+                                                <constraint firstAttribute="trailing" secondItem="8Z5-l7-zVD" secondAttribute="trailing" id="F3t-j9-R82"/>
+                                                <constraint firstItem="8Z5-l7-zVD" firstAttribute="top" secondItem="9MN-qD-EsL" secondAttribute="top" constant="50" id="MgF-jw-KFj"/>
+                                                <constraint firstItem="8Z5-l7-zVD" firstAttribute="leading" secondItem="9MN-qD-EsL" secondAttribute="leading" id="o8g-CG-ZM7"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="1eV-Ev-CC4">
+                                <cells>
+                                    <tableViewCell hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="55" id="T8D-jy-z75">
+                                        <rect key="frame" x="16" y="308" width="343" height="55"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="T8D-jy-z75" id="XYA-UN-5vG">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="55"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRw-AP-h7v">
+                                                    <rect key="frame" x="0.0" y="0.0" width="343" height="55"/>
+                                                    <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <state key="normal" title="Repost">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="repostAction:" destination="7R4-TR-Bed" eventType="touchUpInside" id="fhj-SX-AgM"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="oRw-AP-h7v" firstAttribute="top" secondItem="XYA-UN-5vG" secondAttribute="top" id="A5K-n8-jMI"/>
+                                                <constraint firstItem="oRw-AP-h7v" firstAttribute="leading" secondItem="XYA-UN-5vG" secondAttribute="leading" id="Ijs-b8-ow5"/>
+                                                <constraint firstAttribute="bottom" secondItem="oRw-AP-h7v" secondAttribute="bottom" id="LXK-9T-cCF"/>
+                                                <constraint firstAttribute="trailing" secondItem="oRw-AP-h7v" secondAttribute="trailing" id="smq-6h-920"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="kD4-Gr-tWa">
+                                <cells>
+                                    <tableViewCell hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="55" id="YYi-ny-L1K">
+                                        <rect key="frame" x="16" y="379" width="343" height="55"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YYi-ny-L1K" id="jsD-iA-OFQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="55"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IxT-8P-xpw">
+                                                    <rect key="frame" x="0.0" y="0.0" width="343" height="55"/>
+                                                    <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <state key="normal" title="Save">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="saveAction:" destination="7R4-TR-Bed" eventType="touchUpInside" id="WA9-2u-ZKH"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="IxT-8P-xpw" firstAttribute="top" secondItem="jsD-iA-OFQ" secondAttribute="top" id="DUn-LH-MTs"/>
+                                                <constraint firstItem="IxT-8P-xpw" firstAttribute="leading" secondItem="jsD-iA-OFQ" secondAttribute="leading" id="IJt-AK-EGb"/>
+                                                <constraint firstAttribute="trailing" secondItem="IxT-8P-xpw" secondAttribute="trailing" id="UkT-zg-vTa"/>
+                                                <constraint firstAttribute="bottom" secondItem="IxT-8P-xpw" secondAttribute="bottom" id="eDY-mI-lA6"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="7R4-TR-Bed" id="3HM-uv-ytQ"/>
+                            <outlet property="delegate" destination="7R4-TR-Bed" id="yh5-Rw-7xh"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Repost" id="x0y-6l-9CW">
+                        <barButtonItem key="rightBarButtonItem" style="done" id="fjl-bt-wmP">
+                            <view key="customView" contentMode="scaleToFill" id="Wdb-mQ-LhX">
+                                <rect key="frame" x="311" y="5.5" width="83" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="hFU-8r-MYI" customClass="CloseButton" customModule="TikTokRepost" customModuleProvider="target">
+                                        <rect key="frame" x="58" y="2" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="elementColor">
+                                                <color key="value" white="0.25" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="mainColor">
+                                                <color key="value" white="0.67000000000000004" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="closeAction:" destination="7R4-TR-Bed" eventType="touchUpInside" id="2Fm-A6-4gC"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="8Z5-l7-zVD" id="bR0-Cr-rDg"/>
+                        <segue destination="AOW-Hf-6pM" kind="show" identifier="previewToinApp" id="Ngd-wx-WgN"/>
+                        <segue destination="j1P-Bh-bq2" kind="show" identifier="toMain" id="AUN-0O-KRY"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yXr-D1-mPq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="433" y="766"/>
+        </scene>
+        <!--SettingsVC-->
+        <scene sceneID="dUC-E6-rV2">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="9nh-7q-O1j" customClass="settingsVC" customModule="TikTokRepost" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="M82-LW-Ciw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="dd6-Pb-mO9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="loO-26-mqe"/>
+                    <connections>
+                        <segue destination="AOW-Hf-6pM" kind="show" identifier="toinApp" id="FDt-KZ-4vy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="11G-Lj-p9r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-703" y="80"/>
+        </scene>
+        <!--On Boarding1VC-->
+        <scene sceneID="AMc-2M-RXC">
+            <objects>
+                <viewController id="mQs-P1-4rs" customClass="onBoarding1VC" customModule="TikTokRepost" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8gi-A2-iQs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="1Hk-uC-X6M"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <segue destination="Lup-kz-OlF" kind="show" identifier="onBoarding1to2" id="W2Y-QN-4yU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mYb-uu-FcJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4618" y="825"/>
+        </scene>
+        <!--On Boardin2VC-->
+        <scene sceneID="G15-Ph-o4d">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Lup-kz-OlF" customClass="onBoardin2VC" customModule="TikTokRepost" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ezK-UY-3r4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="7w8-HZ-KIF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ad0-Et-RF0"/>
+                    <connections>
+                        <segue destination="E87-Bl-anx" kind="show" identifier="onBoarding2to3" id="Wzd-B2-kLn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X1A-CS-Uh3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3670" y="825"/>
+        </scene>
+        <!--On Boarding3VC-->
+        <scene sceneID="wmp-G6-Kni">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="E87-Bl-anx" customClass="onBoarding3VC" customModule="TikTokRepost" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yZV-Sv-ngq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Pq8-5o-dUZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pCF-yB-Q3D"/>
+                    <connections>
+                        <segue destination="AOW-Hf-6pM" kind="show" identifier="onBoarding3toinApp" id="lUU-ph-jgo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rWY-jp-FGd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2766" y="825"/>
+        </scene>
+        <!--In AppVC-->
+        <scene sceneID="Ft6-Ud-lqO">
+            <objects>
+                <viewController storyboardIdentifier="inAppVC" modalPresentationStyle="fullScreen" id="AOW-Hf-6pM" customClass="inAppVC" customModule="TikTokRepost" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T9P-Sd-efc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="02C-Cf-cYQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VCY-xE-9F9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y9I-rw-HLx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1750" y="825"/>
+        </scene>
+        <!--Repost Page-->
+        <scene sceneID="Rho-Y1-aEt">
+            <objects>
+                <viewController storyboardIdentifier="RepostingVC" modalPresentationStyle="fullScreen" id="zgB-Ae-Q4Z" customClass="RepostPage" customModule="TikTokRepost" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QQE-eg-9qq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6ZD-ax-woF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cXp-YX-YZR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZKS-eD-UBq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-703" y="1677"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Ngd-wx-WgN"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="settings.small" width="30" height="30"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

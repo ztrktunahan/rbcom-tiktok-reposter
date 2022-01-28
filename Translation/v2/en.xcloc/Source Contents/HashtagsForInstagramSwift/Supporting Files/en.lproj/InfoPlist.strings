@@ -1,0 +1,8 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "ИнстSaver";
+/* Bundle name */
+"CFBundleName" = "HashtagsForInstagramSwift";
+/* Privacy - Photo Library Additions Usage Description */
+"NSPhotoLibraryAddUsageDescription" = "ИнстSaver нужен доступ, чтобы сохранять фото и видео в фотопленку.";
+/* Privacy - Photo Library Usage Description */
+"NSPhotoLibraryUsageDescription" = "ИнстSaver нужен доступ, чтобы сохранять фото и видео в фотопленку.";

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="HashtagsForInstagramSwift/Interface/Base.lproj/Main.storyboard" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="0td-hK-EUI.title" xml:space="preserve">
+        <source>InstRepost</source>
+        <target>InstRepost</target>
+        <note>Class = "UINavigationItem"; title = "InstRepost"; ObjectID = "0td-hK-EUI";</note>
+      </trans-unit>
+      <trans-unit id="2SW-O3-xTA.text" xml:space="preserve">
+        <source>Detail</source>
+        <target>Detail</target>
+        <note>Class = "UILabel"; text = "Detail"; ObjectID = "2SW-O3-xTA";</note>
+      </trans-unit>
+      <trans-unit id="4oj-Rg-fHX.text" xml:space="preserve">
+        <source>Without advertising</source>
+        <target>Without advertising</target>
+        <note>Class = "UILabel"; text = "Without advertising"; ObjectID = "4oj-Rg-fHX";</note>
+      </trans-unit>
+      <trans-unit id="7nD-cy-kIi.title" xml:space="preserve">
+        <source>Settings</source>
+        <target>Settings</target>
+        <note>Class = "UINavigationItem"; title = "Settings"; ObjectID = "7nD-cy-kIi";</note>
+      </trans-unit>
+      <trans-unit id="BjX-eY-CAP.text" xml:space="preserve">
+        <source>#</source>
+        <target>#</target>
+        <note>Class = "UITextView"; text = "#"; ObjectID = "BjX-eY-CAP";</note>
+      </trans-unit>
+      <trans-unit id="EIa-gR-IGp.placeholder" xml:space="preserve">
+        <source>Title</source>
+        <target>Title</target>
+        <note>Class = "UITextField"; placeholder = "Title"; ObjectID = "EIa-gR-IGp";</note>
+      </trans-unit>
+      <trans-unit id="HBz-vm-Mpf.text" xml:space="preserve">
+        <source>Premium</source>
+        <target>Premium</target>
+        <note>Class = "UILabel"; text = "Premium"; ObjectID = "HBz-vm-Mpf";</note>
+      </trans-unit>
+      <trans-unit id="MwO-pb-SBg.normalTitle" xml:space="preserve">
+        <source>Privacy Policy</source>
+        <target>Privacy Policy</target>
+        <note>Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "MwO-pb-SBg";</note>
+      </trans-unit>
+      <trans-unit id="NpH-iM-8gk.title" xml:space="preserve">
+        <source>New hashtag</source>
+        <target>New hashtag</target>
+        <note>Class = "UINavigationItem"; title = "New hashtag"; ObjectID = "NpH-iM-8gk";</note>
+      </trans-unit>
+      <trans-unit id="Pn9-Ee-S4T.text" xml:space="preserve">
+        <source>Popular hashtags</source>
+        <target>Popular hashtags</target>
+        <note>Class = "UILabel"; text = "Popular hashtags"; ObjectID = "Pn9-Ee-S4T";</note>
+      </trans-unit>
+      <trans-unit id="UHt-jF-Yqv.normalTitle" xml:space="preserve">
+        <source>Terms of Use</source>
+        <target>Terms of Use</target>
+        <note>Class = "UIButton"; normalTitle = "Terms of Use"; ObjectID = "UHt-jF-Yqv";</note>
+      </trans-unit>
+      <trans-unit id="g2d-p6-x3o.normalTitle" xml:space="preserve">
+        <source>Year premium</source>
+        <target>Year premium</target>
+        <note>Class = "UIButton"; normalTitle = "Year premium"; ObjectID = "g2d-p6-x3o";</note>
+      </trans-unit>
+      <trans-unit id="ge7-c6-sU4.text" xml:space="preserve">
+        <source>Best quality</source>
+        <target>Best quality</target>
+        <note>Class = "UILabel"; text = "Best quality"; ObjectID = "ge7-c6-sU4";</note>
+      </trans-unit>
+      <trans-unit id="hVT-LM-xJZ.text" xml:space="preserve">
+        <source>Title</source>
+        <target>Title</target>
+        <note>Class = "UILabel"; text = "Title"; ObjectID = "hVT-LM-xJZ";</note>
+      </trans-unit>
+      <trans-unit id="kf7-wW-Dim.text" xml:space="preserve">
+        <source>Subscription automatically renews unless auto-renewal is canceled at least 24 hours before the end of the period. Subscriptions can be managed in your account settings.</source>
+        <target>Subscription automatically renews unless auto-renewal is canceled at least 24 hours before the end of the period. Subscriptions can be managed in your account settings.</target>
+        <note>Class = "UITextView"; text = "Subscription automatically renews unless auto-renewal is canceled at least 24 hours before the end of the period. Subscriptions can be managed in your account settings."; ObjectID = "kf7-wW-Dim";</note>
+      </trans-unit>
+      <trans-unit id="mgE-NW-uF1.normalTitle" xml:space="preserve">
+        <source>Restore purchases</source>
+        <target>Restore purchases</target>
+        <note>Class = "UIButton"; normalTitle = "Restore purchases"; ObjectID = "mgE-NW-uF1";</note>
+      </trans-unit>
+      <trans-unit id="nD1-cS-CV8.segmentTitles[0]" xml:space="preserve">
+        <source>All</source>
+        <target>All</target>
+        <note>Class = "UISegmentedControl"; nD1-cS-CV8.segmentTitles[0] = "All"; ObjectID = "nD1-cS-CV8";</note>
+      </trans-unit>
+      <trans-unit id="nD1-cS-CV8.segmentTitles[1]" xml:space="preserve">
+        <source>My</source>
+        <target>My</target>
+        <note>Class = "UISegmentedControl"; nD1-cS-CV8.segmentTitles[1] = "My"; ObjectID = "nD1-cS-CV8";</note>
+      </trans-unit>
+      <trans-unit id="nG2-5f-EJb.text" xml:space="preserve">
+        <source>InstRepost for Instagram</source>
+        <target>InstRepost for Instagram</target>
+        <note>Class = "UILabel"; text = "InstRepost for Instagram"; ObjectID = "nG2-5f-EJb";</note>
+      </trans-unit>
+      <trans-unit id="onE-nS-K8B.text" xml:space="preserve">
+        <source>Repost without limits</source>
+        <target>Repost without limits</target>
+        <note>Class = "UILabel"; text = "Repost without limits"; ObjectID = "onE-nS-K8B";</note>
+      </trans-unit>
+      <trans-unit id="uOZ-uX-gRU.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "uOZ-uX-gRU";</note>
+      </trans-unit>
+      <trans-unit id="v2G-sn-SuD.normalTitle" xml:space="preserve">
+        <source>Month premium</source>
+        <target>Month premium</target>
+        <note>Class = "UIButton"; normalTitle = "Month premium"; ObjectID = "v2G-sn-SuD";</note>
+      </trans-unit>
+      <trans-unit id="xdK-DU-wTM.title" xml:space="preserve">
+        <source>Hashtags</source>
+        <target>Hashtags</target>
+        <note>Class = "UINavigationItem"; title = "Hashtags"; ObjectID = "xdK-DU-wTM";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="HashtagsForInstagramSwift/Interface/Base.lproj/Toolbar.xib" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="QAW-iK-h2r.normalTitle" xml:space="preserve">
+        <source>Save</source>
+        <target>Save</target>
+        <note>Class = "UIButton"; normalTitle = "Save"; ObjectID = "QAW-iK-h2r";</note>
+      </trans-unit>
+      <trans-unit id="fU5-Sm-Tx4.normalTitle" xml:space="preserve">
+        <source>Cancel</source>
+        <target>Cancel</target>
+        <note>Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "fU5-Sm-Tx4";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="HashtagsForInstagramSwift/Supporting Files/en.lproj/InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve">
+        <source>InstRepost</source>
+        <target>InstRepost</target>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>HashtagsForInstagramSwift</source>
+        <target>HashtagsForInstagramSwift</target>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="HashtagsForInstagramSwift/Supporting Files/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="Active" xml:space="preserve">
+        <source>Active</source>
+        <target>Active</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Added" xml:space="preserve">
+        <source>Added</source>
+        <target>Added</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Adds taptic feedback to various actions in the app." xml:space="preserve">
+        <source>Adds taptic feedback to various actions in the app.</source>
+        <target>Adds taptic feedback to various actions in the app.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="App" xml:space="preserve">
+        <source>App</source>
+        <target>App</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="App color" xml:space="preserve">
+        <source>App color</source>
+        <target>App color</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Automatically" xml:space="preserve">
+        <source>Automatically</source>
+        <target>Automatically</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Contact developer" xml:space="preserve">
+        <source>Contact developer</source>
+        <target>Contact developer</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Copied" xml:space="preserve">
+        <source>Copied</source>
+        <target>Copied</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Copy" xml:space="preserve">
+        <source>Copy</source>
+        <target>Copy</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Copy link" xml:space="preserve">
+        <source>Copy link</source>
+        <target>Copy link</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Dark Theme" xml:space="preserve">
+        <source>Dark Theme</source>
+        <target>Dark Theme</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Data" xml:space="preserve">
+        <source>Data</source>
+        <target>Data</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Delete" xml:space="preserve">
+        <source>Delete</source>
+        <target>Delete</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Feedback" xml:space="preserve">
+        <source>Feedback</source>
+        <target>Feedback</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="First new" xml:space="preserve">
+        <source>First new</source>
+        <target>First new</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="First old" xml:space="preserve">
+        <source>First old</source>
+        <target>First old</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Got it" xml:space="preserve">
+        <source>Got it</source>
+        <target>Got it</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Hard" xml:space="preserve">
+        <source>Hard</source>
+        <target>Hard</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Insert post link" xml:space="preserve">
+        <source>Insert post link</source>
+        <target>Insert post link</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Interface" xml:space="preserve">
+        <source>Interface</source>
+        <target>Interface</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Light" xml:space="preserve">
+        <source>Light</source>
+        <target>Light</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Light &amp; Dark theme" xml:space="preserve">
+        <source>Light &amp; Dark theme</source>
+        <target>Light &amp; Dark theme</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Light Theme" xml:space="preserve">
+        <source>Light Theme</source>
+        <target>Light Theme</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Media history" xml:space="preserve">
+        <source>Media history</source>
+        <target>Media history</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Medium" xml:space="preserve">
+        <source>Medium</source>
+        <target>Medium</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="More apps" xml:space="preserve">
+        <source>More apps</source>
+        <target>More apps</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Next" xml:space="preserve">
+        <source>Next</source>
+        <target>Next</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Not active" xml:space="preserve">
+        <source>Not active</source>
+        <target>Not active</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Open instagram" xml:space="preserve">
+        <source>Open instagram</source>
+        <target>Open instagram</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Post link" xml:space="preserve">
+        <source>Post link</source>
+        <target>Post link</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Premium" xml:space="preserve">
+        <source>Premium</source>
+        <target>Premium</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Premium is active" xml:space="preserve">
+        <source>Premium is active</source>
+        <target>Premium is active</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Preview" xml:space="preserve">
+        <source>Preview</source>
+        <target>Preview</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Private account. Try another" xml:space="preserve">
+        <source>Private account. Try another</source>
+        <target>Private account. Try another</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Repost" xml:space="preserve">
+        <source>Repost</source>
+        <target>Repost</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Share app" xml:space="preserve">
+        <source>Share app</source>
+        <target>Share app</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Sort" xml:space="preserve">
+        <source>Sort</source>
+        <target>Sort</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Taptic Engine" xml:space="preserve">
+        <source>Taptic Engine</source>
+        <target>Taptic Engine</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Taptic Force" xml:space="preserve">
+        <source>Taptic Force</source>
+        <target>Taptic Force</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="To repost the photo, you need to copy the link from instagram and paste it here." xml:space="preserve">
+        <source>To repost the photo, you need to copy the link from instagram and paste it here.</source>
+        <target>To repost the photo, you need to copy the link from instagram and paste it here.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="When the switch is on, the system apperance is used." xml:space="preserve">
+        <source>When the switch is on, the system apperance is used.</source>
+        <target>When the switch is on, the system apperance is used.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Write a review" xml:space="preserve">
+        <source>Write a review</source>
+        <target>Write a review</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="You have unlocked all features of app!" xml:space="preserve">
+        <source>You have unlocked all features of app!</source>
+        <target>You have unlocked all features of app!</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="day" xml:space="preserve">
+        <source>day</source>
+        <target>day</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="month" xml:space="preserve">
+        <source>month</source>
+        <target>month</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="then" xml:space="preserve">
+        <source>then</source>
+        <target>then</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="trial" xml:space="preserve">
+        <source>trial</source>
+        <target>trial</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="week" xml:space="preserve">
+        <source>week</source>
+        <target>week</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

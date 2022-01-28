@@ -1,0 +1,11 @@
+framework module TikTokFeed {
+  umbrella header "TikTokFeed.h"
+
+  export *
+  module * { export * }
+}
+
+module TikTokFeed.Swift {
+    header "TikTokFeed-Swift.h"
+    requires objc
+}

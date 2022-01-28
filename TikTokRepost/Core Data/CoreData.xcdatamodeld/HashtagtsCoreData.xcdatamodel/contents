@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Hashtag" representedClassName="Hashtag" syncable="YES">
+        <attribute name="defaultTag" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="tags" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Post" representedClassName="Post" syncable="YES">
+        <attribute name="caption" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="url" optional="YES" attributeType="URI"/>
+        <attribute name="videoURL" optional="YES" attributeType="URI"/>
+    </entity>
+    <elements>
+        <element name="Post" positionX="51.60736083984375" positionY="33.68756103515625" width="128" height="104"/>
+        <element name="Hashtag" positionX="54" positionY="72" width="128" height="74"/>
+    </elements>
+</model>

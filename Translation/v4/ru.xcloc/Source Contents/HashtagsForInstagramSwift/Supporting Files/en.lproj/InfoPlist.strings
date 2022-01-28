@@ -1,0 +1,8 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "InstSaver";
+/* Bundle name */
+"CFBundleName" = "HashtagsForInstagramSwift";
+/* Privacy - Photo Library Additions Usage Description */
+"NSPhotoLibraryAddUsageDescription" = "The app allows to save photos and videos to your Photo Gallery.";
+/* Privacy - Photo Library Usage Description */
+"NSPhotoLibraryUsageDescription" = "The app allows to save photos and videos to your Photo Gallery.";

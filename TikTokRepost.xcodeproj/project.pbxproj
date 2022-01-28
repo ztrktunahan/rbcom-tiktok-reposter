@@ -1,0 +1,887 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43575A8127A175B200E037F5 /* StoreKitOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43575A8027A175B200E037F5 /* StoreKitOperations.swift */; };
+		43575A8327A2D49900E037F5 /* animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 43575A8227A2D49900E037F5 /* animation.json */; };
+		4369252226F3784100757026 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4369252126F3784100757026 /* Globals.swift */; };
+		43FCF5CB2782117A000F5DE4 /* TikTokFeed.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FCF5CA2782117A000F5DE4 /* TikTokFeed.xcframework */; };
+		43FCF5CC2782117A000F5DE4 /* TikTokFeed.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43FCF5CA2782117A000F5DE4 /* TikTokFeed.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		71416C028A30F88073E83392 /* Pods_TikTokRepost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10035E16D0A56D859FA5C300 /* Pods_TikTokRepost.framework */; };
+		91B9D04827204B8D0082AB27 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B9D03627204B8B0082AB27 /* Poppins-Medium.ttf */; };
+		91B9D04927204B8D0082AB27 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B9D03727204B8C0082AB27 /* Poppins-ExtraLight.ttf */; };
+		91B9D04A27204B8D0082AB27 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B9D03827204B8C0082AB27 /* Poppins-BlackItalic.ttf */; };
+		91B9D04B27204B8D0082AB27 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B9D03927204B8C0082AB27 /* Poppins-Regular.ttf */; };
+		91B9D04C27204B8D0082AB27 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B9D03A27204B8C0082AB27 /* Poppins-ExtraBoldItalic.ttf */; };
+		91B9D04D27204B8D0082AB27 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B9D03B27204B8C0082AB27 /* Poppins-SemiBoldItalic.ttf */; };
+		91B9D04E27204B8D0082AB27 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B9D03C27204B8C0082AB27 /* Poppins-Light.ttf */; };
+		91B9D04F27204B8D0082AB27 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B9D03D27204B8C0082AB27 /* Poppins-MediumItalic.ttf */; };
+		91B9D05027204B8D0082AB27 /* Poppins-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B9D03E27204B8C0082AB27 /* Poppins-RegularItalic.ttf */; };
+		91B9D05127204B8D0082AB27 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B9D03F27204B8C0082AB27 /* Poppins-LightItalic.ttf */; };
+		91B9D05227204B8D0082AB27 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B9D04027204B8C0082AB27 /* Poppins-ExtraLightItalic.ttf */; };
+		91B9D05327204B8D0082AB27 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B9D04127204B8C0082AB27 /* Poppins-ThinItalic.ttf */; };
+		91B9D05427204B8D0082AB27 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B9D04227204B8C0082AB27 /* Poppins-Black.ttf */; };
+		91B9D05527204B8D0082AB27 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B9D04327204B8D0082AB27 /* Poppins-Thin.ttf */; };
+		91B9D05627204B8D0082AB27 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B9D04427204B8D0082AB27 /* Poppins-SemiBold.ttf */; };
+		91B9D05727204B8D0082AB27 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B9D04527204B8D0082AB27 /* Poppins-Bold.ttf */; };
+		91B9D05827204B8D0082AB27 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B9D04627204B8D0082AB27 /* Poppins-ExtraBold.ttf */; };
+		91B9D05927204B8D0082AB27 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91B9D04727204B8D0082AB27 /* Poppins-BoldItalic.ttf */; };
+		91B9D05C27205BC00082AB27 /* Purchases in Frameworks */ = {isa = PBXBuildFile; productRef = 91B9D05B27205BC00082AB27 /* Purchases */; };
+		91C9144C272156A20086C5ED /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C9144B272156A20086C5ED /* StoreKit.framework */; };
+		91C9144E272158FE0086C5ED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91C9144D272158FE0086C5ED /* GoogleService-Info.plist */; };
+		91C91450272161470086C5ED /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C9144F272161470086C5ED /* AppTrackingTransparency.framework */; };
+		91C91452272161940086C5ED /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C91451272161940086C5ED /* AdSupport.framework */; };
+		91C91454272161A10086C5ED /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C91453272161A10086C5ED /* iAd.framework */; };
+		91C91456272161B20086C5ED /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C91455272161B20086C5ED /* AdServices.framework */; };
+		91D49A34271EACED00AC7230 /* RepostPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D49A33271EACED00AC7230 /* RepostPage.swift */; };
+		B22DBCBD25C89E8500B4A455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22DBCBC25C89E8500B4A455 /* AppDelegate.swift */; };
+		B22DBCC425C89E8500B4A455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22DBCC225C89E8500B4A455 /* Main.storyboard */; };
+		B22DBCC625C89E8600B4A455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22DBCC525C89E8600B4A455 /* Assets.xcassets */; };
+		B22DBCC925C89E8600B4A455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22DBCC725C89E8600B4A455 /* LaunchScreen.storyboard */; };
+		B22DBD7625C961DF00B4A455 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B22DBD7425C961DF00B4A455 /* CoreData.xcdatamodeld */; };
+		B22DBD8125C9630C00B4A455 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22DBD8025C9630C00B4A455 /* CoreData.framework */; };
+		B22DC95325C96411002B1D60 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22DC95225C96411002B1D60 /* Database.swift */; };
+		B22DC97425C9732B002B1D60 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22DC97325C9732B002B1D60 /* Extensions.swift */; };
+		B22DC97D25C979E4002B1D60 /* PlusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22DC97C25C979E4002B1D60 /* PlusButton.swift */; };
+		B22DC98025C97A10002B1D60 /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22DC97F25C97A10002B1D60 /* AnimatedButton.swift */; };
+		B26C1FD426EE440400EB7451 /* Hashtags.txt in Resources */ = {isa = PBXBuildFile; fileRef = B26C1FD226EE440400EB7451 /* Hashtags.txt */; };
+		B26C1FD526EE440400EB7451 /* Titles.txt in Resources */ = {isa = PBXBuildFile; fileRef = B26C1FD326EE440400EB7451 /* Titles.txt */; };
+		B26C1FD726EE441300EB7451 /* Toolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26C1FD626EE441300EB7451 /* Toolbar.xib */; };
+		B26C1FD926EE446200EB7451 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C1FD826EE446200EB7451 /* ToolbarView.swift */; };
+		B26C1FDC26EE44E500EB7451 /* Hashtag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C1FDA26EE44E500EB7451 /* Hashtag+CoreDataClass.swift */; };
+		B26C1FDD26EE44E500EB7451 /* Hashtag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C1FDB26EE44E500EB7451 /* Hashtag+CoreDataProperties.swift */; };
+		B26C1FE326EE480F00EB7451 /* SearchUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C1FE226EE480F00EB7451 /* SearchUserController.swift */; };
+		B2745EF726E56F3200B0E161 /* Post+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2745EF526E56F3200B0E161 /* Post+CoreDataClass.swift */; };
+		B2745EF826E56F3200B0E161 /* Post+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2745EF626E56F3200B0E161 /* Post+CoreDataProperties.swift */; };
+		B2862D7C26ED0AB100DF1160 /* VideoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2862D7926ED0AB000DF1160 /* VideoListViewController.swift */; };
+		B2862D8326ED0ADE00DF1160 /* MediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2862D8126ED0ADE00DF1160 /* MediaModel.swift */; };
+		B2862D8426ED0ADE00DF1160 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2862D8226ED0ADE00DF1160 /* UserModel.swift */; };
+		B2862D8726ED0B0100DF1160 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2862D8626ED0B0100DF1160 /* DataManager.swift */; };
+		B2862D8B26ED0B7C00DF1160 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2862D8826ED0B7B00DF1160 /* VideoCollectionViewCell.swift */; };
+		B2862D8C26ED0B7C00DF1160 /* DashboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2862D8926ED0B7B00DF1160 /* DashboardCollectionViewCell.swift */; };
+		B2862D8D26ED0B7C00DF1160 /* DashboardHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2862D8A26ED0B7C00DF1160 /* DashboardHeaderView.swift */; };
+		B295BCFC26A370B700E4B148 /* MediaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B295BCFB26A370B700E4B148 /* MediaCell.swift */; };
+		B29988D82618F5CE00ADD709 /* StoreReviewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29988D72618F5CE00ADD709 /* StoreReviewHelper.swift */; };
+		B29988DB261906BF00ADD709 /* PreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29988DA261906BF00ADD709 /* PreviewController.swift */; };
+		B29FC9EE25CC3F4E003ECF77 /* BulletinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29FC9ED25CC3F4E003ECF77 /* BulletinManager.swift */; };
+		B2A67E9025C9ACA200A59089 /* RepostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A67E8F25C9ACA200A59089 /* RepostController.swift */; };
+		B2A67E9625C9AD2E00A59089 /* MediaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A67E9425C9AD2E00A59089 /* MediaManager.swift */; };
+		B2A67EA825C9AF0700A59089 /* TextFieldBulletinPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A67EA025C9AF0700A59089 /* TextFieldBulletinPage.swift */; };
+		B2B7AD8526D2E05500143167 /* AdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B7AD8426D2E05500143167 /* AdsManager.swift */; };
+		B2D2640825F46D6B00E0620B /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D2640725F46D6B00E0620B /* SettingsController.swift */; };
+		B2D2640C25F46D7A00E0620B /* ColorsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2D2640B25F46D7A00E0620B /* ColorsCell.xib */; };
+		B2D2641325F46D9200E0620B /* ColorsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D2641125F46D9100E0620B /* ColorsCell.swift */; };
+		B2D2641425F46D9200E0620B /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D2641225F46D9200E0620B /* SettingsCell.swift */; };
+		B2D2641825F46DE400E0620B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D2641725F46DE400E0620B /* Settings.swift */; };
+		B2D2641C25F46E9000E0620B /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D2641B25F46E9000E0620B /* AppConfig.swift */; };
+		B2D2642025F46F2800E0620B /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D2641F25F46F2800E0620B /* CloseButton.swift */; };
+		D40C12A026EF6E8300E4D853 /* onBoarding1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C129F26EF6E8300E4D853 /* onBoarding1VC.swift */; };
+		D40C12A226EF7CC200E4D853 /* onBoardin2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C12A126EF7CC200E4D853 /* onBoardin2VC.swift */; };
+		D40C12A426EF7E9600E4D853 /* onBoarding3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C12A326EF7E9600E4D853 /* onBoarding3VC.swift */; };
+		D40C12A626EF854C00E4D853 /* inAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C12A526EF854C00E4D853 /* inAppVC.swift */; };
+		D40C12A826F0CE1D00E4D853 /* settingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C12A726F0CE1D00E4D853 /* settingsVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		43FCF5CD2782117A000F5DE4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				43FCF5CC2782117A000F5DE4 /* TikTokFeed.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29FC96125CC0D6C003ECF77 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02C21C17AF98F90DE0A1C0DA /* Pods-TikTokRepost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikTokRepost.release.xcconfig"; path = "Target Support Files/Pods-TikTokRepost/Pods-TikTokRepost.release.xcconfig"; sourceTree = "<group>"; };
+		03278576D4BDDFBA1CC1FB19 /* Pods-TikTokRepost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikTokRepost.debug.xcconfig"; path = "Target Support Files/Pods-TikTokRepost/Pods-TikTokRepost.debug.xcconfig"; sourceTree = "<group>"; };
+		10035E16D0A56D859FA5C300 /* Pods_TikTokRepost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TikTokRepost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43575A8027A175B200E037F5 /* StoreKitOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreKitOperations.swift; sourceTree = "<group>"; };
+		43575A8227A2D49900E037F5 /* animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation.json; sourceTree = "<group>"; };
+		4369252126F3784100757026 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		43FCF5CA2782117A000F5DE4 /* TikTokFeed.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TikTokFeed.xcframework; path = "../../Ashwani/ashwani-tiktok-reposter-2/TikStats/TikTokFeed.xcframework"; sourceTree = "<group>"; };
+		91B9D03627204B8B0082AB27 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		91B9D03727204B8C0082AB27 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		91B9D03827204B8C0082AB27 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		91B9D03927204B8C0082AB27 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		91B9D03A27204B8C0082AB27 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		91B9D03B27204B8C0082AB27 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		91B9D03C27204B8C0082AB27 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		91B9D03D27204B8C0082AB27 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		91B9D03E27204B8C0082AB27 /* Poppins-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-RegularItalic.ttf"; sourceTree = "<group>"; };
+		91B9D03F27204B8C0082AB27 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		91B9D04027204B8C0082AB27 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		91B9D04127204B8C0082AB27 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		91B9D04227204B8C0082AB27 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		91B9D04327204B8D0082AB27 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		91B9D04427204B8D0082AB27 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		91B9D04527204B8D0082AB27 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		91B9D04627204B8D0082AB27 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		91B9D04727204B8D0082AB27 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		91C9144B272156A20086C5ED /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		91C9144D272158FE0086C5ED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		91C9144F272161470086C5ED /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		91C91451272161940086C5ED /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		91C91453272161A10086C5ED /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		91C91455272161B20086C5ED /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		91D49A33271EACED00AC7230 /* RepostPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepostPage.swift; sourceTree = "<group>"; };
+		B22DBCB925C89E8500B4A455 /* TikTokRepost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTokRepost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22DBCBC25C89E8500B4A455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B22DBCC325C89E8500B4A455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B22DBCC525C89E8600B4A455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B22DBCC825C89E8600B4A455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B22DBCCA25C89E8600B4A455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22DBD7525C961DF00B4A455 /* HashtagtsCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HashtagtsCoreData.xcdatamodel; sourceTree = "<group>"; };
+		B22DBD8025C9630C00B4A455 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B22DC95225C96411002B1D60 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		B22DC97325C9732B002B1D60 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B22DC97C25C979E4002B1D60 /* PlusButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusButton.swift; sourceTree = "<group>"; };
+		B22DC97F25C97A10002B1D60 /* AnimatedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
+		B26C1FD226EE440400EB7451 /* Hashtags.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hashtags.txt; sourceTree = "<group>"; };
+		B26C1FD326EE440400EB7451 /* Titles.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Titles.txt; sourceTree = "<group>"; };
+		B26C1FD626EE441300EB7451 /* Toolbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Toolbar.xib; sourceTree = "<group>"; };
+		B26C1FD826EE446200EB7451 /* ToolbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		B26C1FDA26EE44E500EB7451 /* Hashtag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hashtag+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B26C1FDB26EE44E500EB7451 /* Hashtag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hashtag+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B26C1FE226EE480F00EB7451 /* SearchUserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserController.swift; sourceTree = "<group>"; };
+		B2745EF526E56F3200B0E161 /* Post+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B2745EF626E56F3200B0E161 /* Post+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B2862D7326ED0A0800DF1160 /* TikTokFeed.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TikTokFeed.xcframework; path = TikTokRepost/TikTokFeed.xcframework; sourceTree = "<group>"; };
+		B2862D7926ED0AB000DF1160 /* VideoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoListViewController.swift; sourceTree = "<group>"; };
+		B2862D8126ED0ADE00DF1160 /* MediaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaModel.swift; sourceTree = "<group>"; };
+		B2862D8226ED0ADE00DF1160 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B2862D8626ED0B0100DF1160 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		B2862D8826ED0B7B00DF1160 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		B2862D8926ED0B7B00DF1160 /* DashboardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardCollectionViewCell.swift; sourceTree = "<group>"; };
+		B2862D8A26ED0B7C00DF1160 /* DashboardHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardHeaderView.swift; sourceTree = "<group>"; };
+		B295BCFB26A370B700E4B148 /* MediaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaCell.swift; sourceTree = "<group>"; };
+		B29988D72618F5CE00ADD709 /* StoreReviewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreReviewHelper.swift; sourceTree = "<group>"; };
+		B29988DA261906BF00ADD709 /* PreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewController.swift; sourceTree = "<group>"; };
+		B29FC9ED25CC3F4E003ECF77 /* BulletinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletinManager.swift; sourceTree = "<group>"; };
+		B2A67E8F25C9ACA200A59089 /* RepostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepostController.swift; sourceTree = "<group>"; };
+		B2A67E9425C9AD2E00A59089 /* MediaManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaManager.swift; sourceTree = "<group>"; };
+		B2A67EA025C9AF0700A59089 /* TextFieldBulletinPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldBulletinPage.swift; sourceTree = "<group>"; };
+		B2B7AD8426D2E05500143167 /* AdsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsManager.swift; sourceTree = "<group>"; };
+		B2D2640725F46D6B00E0620B /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		B2D2640B25F46D7A00E0620B /* ColorsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorsCell.xib; sourceTree = "<group>"; };
+		B2D2641125F46D9100E0620B /* ColorsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsCell.swift; sourceTree = "<group>"; };
+		B2D2641225F46D9200E0620B /* SettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		B2D2641725F46DE400E0620B /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B2D2641B25F46E9000E0620B /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		B2D2641F25F46F2800E0620B /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		D40C129F26EF6E8300E4D853 /* onBoarding1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoarding1VC.swift; sourceTree = "<group>"; };
+		D40C12A126EF7CC200E4D853 /* onBoardin2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardin2VC.swift; sourceTree = "<group>"; };
+		D40C12A326EF7E9600E4D853 /* onBoarding3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoarding3VC.swift; sourceTree = "<group>"; };
+		D40C12A526EF854C00E4D853 /* inAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inAppVC.swift; sourceTree = "<group>"; };
+		D40C12A726F0CE1D00E4D853 /* settingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B22DBCB625C89E8500B4A455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22DBD8125C9630C00B4A455 /* CoreData.framework in Frameworks */,
+				91C9144C272156A20086C5ED /* StoreKit.framework in Frameworks */,
+				91C91450272161470086C5ED /* AppTrackingTransparency.framework in Frameworks */,
+				91B9D05C27205BC00082AB27 /* Purchases in Frameworks */,
+				71416C028A30F88073E83392 /* Pods_TikTokRepost.framework in Frameworks */,
+				91C91452272161940086C5ED /* AdSupport.framework in Frameworks */,
+				91C91454272161A10086C5ED /* iAd.framework in Frameworks */,
+				91C91456272161B20086C5ED /* AdServices.framework in Frameworks */,
+				43FCF5CB2782117A000F5DE4 /* TikTokFeed.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91B9D03527204B7A0082AB27 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				91B9D04227204B8C0082AB27 /* Poppins-Black.ttf */,
+				91B9D03827204B8C0082AB27 /* Poppins-BlackItalic.ttf */,
+				91B9D04527204B8D0082AB27 /* Poppins-Bold.ttf */,
+				91B9D04727204B8D0082AB27 /* Poppins-BoldItalic.ttf */,
+				91B9D04627204B8D0082AB27 /* Poppins-ExtraBold.ttf */,
+				91B9D03A27204B8C0082AB27 /* Poppins-ExtraBoldItalic.ttf */,
+				91B9D03727204B8C0082AB27 /* Poppins-ExtraLight.ttf */,
+				91B9D04027204B8C0082AB27 /* Poppins-ExtraLightItalic.ttf */,
+				91B9D03C27204B8C0082AB27 /* Poppins-Light.ttf */,
+				91B9D03F27204B8C0082AB27 /* Poppins-LightItalic.ttf */,
+				91B9D03627204B8B0082AB27 /* Poppins-Medium.ttf */,
+				91B9D03D27204B8C0082AB27 /* Poppins-MediumItalic.ttf */,
+				91B9D03927204B8C0082AB27 /* Poppins-Regular.ttf */,
+				91B9D03E27204B8C0082AB27 /* Poppins-RegularItalic.ttf */,
+				91B9D04427204B8D0082AB27 /* Poppins-SemiBold.ttf */,
+				91B9D03B27204B8C0082AB27 /* Poppins-SemiBoldItalic.ttf */,
+				91B9D04327204B8D0082AB27 /* Poppins-Thin.ttf */,
+				91B9D04127204B8C0082AB27 /* Poppins-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AB5D1D20E117971607259579 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03278576D4BDDFBA1CC1FB19 /* Pods-TikTokRepost.debug.xcconfig */,
+				02C21C17AF98F90DE0A1C0DA /* Pods-TikTokRepost.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B22DBCB025C89E8500B4A455 = {
+			isa = PBXGroup;
+			children = (
+				91B9D03527204B7A0082AB27 /* Fonts */,
+				91D49A33271EACED00AC7230 /* RepostPage.swift */,
+				B22DBCBB25C89E8500B4A455 /* TikTokRepost */,
+				B22DBCBA25C89E8500B4A455 /* Products */,
+				B22DBD7F25C9630C00B4A455 /* Frameworks */,
+				AB5D1D20E117971607259579 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B22DBCBA25C89E8500B4A455 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B22DBCB925C89E8500B4A455 /* TikTokRepost.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B22DBCBB25C89E8500B4A455 /* TikTokRepost */ = {
+			isa = PBXGroup;
+			children = (
+				B2D2641B25F46E9000E0620B /* AppConfig.swift */,
+				B22DBCD525C89EE400B4A455 /* Delegate */,
+				B279787C25F446DB003AE1A4 /* View */,
+				B2B539B025CAD95D000AE846 /* Cells */,
+				B22DBD7325C961BF00B4A455 /* Core Data */,
+				B2A67E9225C9AD2E00A59089 /* MediaManagers */,
+				B22DBCD725C89EEA00B4A455 /* Controllers */,
+				B22DBCD925C89EF900B4A455 /* Interface */,
+				B2862D8526ED0AE200DF1160 /* Models */,
+				B22DC95125C96411002B1D60 /* Helpers */,
+				B22DBCDA25C89F0100B4A455 /* Supporting Files */,
+				D40C129F26EF6E8300E4D853 /* onBoarding1VC.swift */,
+				D40C12A126EF7CC200E4D853 /* onBoardin2VC.swift */,
+				D40C12A326EF7E9600E4D853 /* onBoarding3VC.swift */,
+				D40C12A526EF854C00E4D853 /* inAppVC.swift */,
+				4369252126F3784100757026 /* Globals.swift */,
+				91C9144D272158FE0086C5ED /* GoogleService-Info.plist */,
+				43575A8227A2D49900E037F5 /* animation.json */,
+			);
+			path = TikTokRepost;
+			sourceTree = "<group>";
+		};
+		B22DBCD525C89EE400B4A455 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				B22DBCBC25C89E8500B4A455 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		B22DBCD725C89EEA00B4A455 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2D2640725F46D6B00E0620B /* SettingsController.swift */,
+				B2A67E8F25C9ACA200A59089 /* RepostController.swift */,
+				B29988DA261906BF00ADD709 /* PreviewController.swift */,
+				B2862D7926ED0AB000DF1160 /* VideoListViewController.swift */,
+				B26C1FE226EE480F00EB7451 /* SearchUserController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B22DBCD925C89EF900B4A455 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				B22DBCC225C89E8500B4A455 /* Main.storyboard */,
+				B22DBCC725C89E8600B4A455 /* LaunchScreen.storyboard */,
+				B2D2640B25F46D7A00E0620B /* ColorsCell.xib */,
+				B26C1FD626EE441300EB7451 /* Toolbar.xib */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		B22DBCDA25C89F0100B4A455 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B22DBCC525C89E8600B4A455 /* Assets.xcassets */,
+				B22DBCCA25C89E8600B4A455 /* Info.plist */,
+				B26C1FD226EE440400EB7451 /* Hashtags.txt */,
+				B26C1FD326EE440400EB7451 /* Titles.txt */,
+				D40C12A726F0CE1D00E4D853 /* settingsVC.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B22DBD7325C961BF00B4A455 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				B29988882618E94800ADD709 /* Model */,
+				B22DBD7425C961DF00B4A455 /* CoreData.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		B22DBD7F25C9630C00B4A455 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43FCF5CA2782117A000F5DE4 /* TikTokFeed.xcframework */,
+				91C91455272161B20086C5ED /* AdServices.framework */,
+				91C91453272161A10086C5ED /* iAd.framework */,
+				91C91451272161940086C5ED /* AdSupport.framework */,
+				91C9144F272161470086C5ED /* AppTrackingTransparency.framework */,
+				91C9144B272156A20086C5ED /* StoreKit.framework */,
+				B2862D7326ED0A0800DF1160 /* TikTokFeed.xcframework */,
+				B22DBD8025C9630C00B4A455 /* CoreData.framework */,
+				10035E16D0A56D859FA5C300 /* Pods_TikTokRepost.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B22DC95125C96411002B1D60 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B2B7AD8426D2E05500143167 /* AdsManager.swift */,
+				43575A8027A175B200E037F5 /* StoreKitOperations.swift */,
+				B2D2641725F46DE400E0620B /* Settings.swift */,
+				B22DC95225C96411002B1D60 /* Database.swift */,
+				B22DC97325C9732B002B1D60 /* Extensions.swift */,
+				B29FC9ED25CC3F4E003ECF77 /* BulletinManager.swift */,
+				B29988D72618F5CE00ADD709 /* StoreReviewHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B279787C25F446DB003AE1A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B295BCFE26A373DB00E4B148 /* Bulletin */,
+				B295BCFD26A373D000E4B148 /* Buttons */,
+				B26C1FD826EE446200EB7451 /* ToolbarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B2862D8526ED0AE200DF1160 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2862D8126ED0ADE00DF1160 /* MediaModel.swift */,
+				B2862D8226ED0ADE00DF1160 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B295BCFD26A373D000E4B148 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				B22DC97F25C97A10002B1D60 /* AnimatedButton.swift */,
+				B22DC97C25C979E4002B1D60 /* PlusButton.swift */,
+				B2D2641F25F46F2800E0620B /* CloseButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		B295BCFE26A373DB00E4B148 /* Bulletin */ = {
+			isa = PBXGroup;
+			children = (
+				B2A67EA025C9AF0700A59089 /* TextFieldBulletinPage.swift */,
+			);
+			path = Bulletin;
+			sourceTree = "<group>";
+		};
+		B29988882618E94800ADD709 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B26C1FDA26EE44E500EB7451 /* Hashtag+CoreDataClass.swift */,
+				B26C1FDB26EE44E500EB7451 /* Hashtag+CoreDataProperties.swift */,
+				B2745EF526E56F3200B0E161 /* Post+CoreDataClass.swift */,
+				B2745EF626E56F3200B0E161 /* Post+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2A67E9225C9AD2E00A59089 /* MediaManagers */ = {
+			isa = PBXGroup;
+			children = (
+				B2862D8626ED0B0100DF1160 /* DataManager.swift */,
+				B2A67E9425C9AD2E00A59089 /* MediaManager.swift */,
+			);
+			path = MediaManagers;
+			sourceTree = "<group>";
+		};
+		B2B539B025CAD95D000AE846 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B2D2641125F46D9100E0620B /* ColorsCell.swift */,
+				B2D2641225F46D9200E0620B /* SettingsCell.swift */,
+				B295BCFB26A370B700E4B148 /* MediaCell.swift */,
+				B2862D8926ED0B7B00DF1160 /* DashboardCollectionViewCell.swift */,
+				B2862D8A26ED0B7C00DF1160 /* DashboardHeaderView.swift */,
+				B2862D8826ED0B7B00DF1160 /* VideoCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B22DBCB825C89E8500B4A455 /* TikTokRepost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22DBCCD25C89E8600B4A455 /* Build configuration list for PBXNativeTarget "TikTokRepost" */;
+			buildPhases = (
+				145D0ADF4026190A9C767492 /* [CP] Check Pods Manifest.lock */,
+				B22DBCB525C89E8500B4A455 /* Sources */,
+				B22DBCB625C89E8500B4A455 /* Frameworks */,
+				B22DBCB725C89E8500B4A455 /* Resources */,
+				B29FC96125CC0D6C003ECF77 /* Embed App Extensions */,
+				CC409E8814D5F3F1F080C23B /* [CP] Embed Pods Frameworks */,
+				43FCF5CD2782117A000F5DE4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TikTokRepost;
+			packageProductDependencies = (
+				91B9D05B27205BC00082AB27 /* Purchases */,
+			);
+			productName = HashtagsForInstagramSwift;
+			productReference = B22DBCB925C89E8500B4A455 /* TikTokRepost.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B22DBCB125C89E8500B4A455 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B22DBCB825C89E8500B4A455 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B22DBCB425C89E8500B4A455 /* Build configuration list for PBXProject "TikTokRepost" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B22DBCB025C89E8500B4A455;
+			packageReferences = (
+				91B9D05A27205BC00082AB27 /* XCRemoteSwiftPackageReference "purchases-ios" */,
+			);
+			productRefGroup = B22DBCBA25C89E8500B4A455 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B22DBCB825C89E8500B4A455 /* TikTokRepost */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B22DBCB725C89E8500B4A455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B9D05127204B8D0082AB27 /* Poppins-LightItalic.ttf in Resources */,
+				91B9D04C27204B8D0082AB27 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				B22DBCC925C89E8600B4A455 /* LaunchScreen.storyboard in Resources */,
+				B26C1FD726EE441300EB7451 /* Toolbar.xib in Resources */,
+				91B9D05827204B8D0082AB27 /* Poppins-ExtraBold.ttf in Resources */,
+				91B9D05427204B8D0082AB27 /* Poppins-Black.ttf in Resources */,
+				91B9D05027204B8D0082AB27 /* Poppins-RegularItalic.ttf in Resources */,
+				91B9D04D27204B8D0082AB27 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				91B9D04F27204B8D0082AB27 /* Poppins-MediumItalic.ttf in Resources */,
+				91B9D04A27204B8D0082AB27 /* Poppins-BlackItalic.ttf in Resources */,
+				B2D2640C25F46D7A00E0620B /* ColorsCell.xib in Resources */,
+				91B9D04927204B8D0082AB27 /* Poppins-ExtraLight.ttf in Resources */,
+				91B9D04E27204B8D0082AB27 /* Poppins-Light.ttf in Resources */,
+				91C9144E272158FE0086C5ED /* GoogleService-Info.plist in Resources */,
+				B26C1FD426EE440400EB7451 /* Hashtags.txt in Resources */,
+				91B9D05627204B8D0082AB27 /* Poppins-SemiBold.ttf in Resources */,
+				43575A8327A2D49900E037F5 /* animation.json in Resources */,
+				91B9D05727204B8D0082AB27 /* Poppins-Bold.ttf in Resources */,
+				91B9D05227204B8D0082AB27 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				B26C1FD526EE440400EB7451 /* Titles.txt in Resources */,
+				91B9D05527204B8D0082AB27 /* Poppins-Thin.ttf in Resources */,
+				91B9D05927204B8D0082AB27 /* Poppins-BoldItalic.ttf in Resources */,
+				91B9D04827204B8D0082AB27 /* Poppins-Medium.ttf in Resources */,
+				91B9D04B27204B8D0082AB27 /* Poppins-Regular.ttf in Resources */,
+				B22DBCC625C89E8600B4A455 /* Assets.xcassets in Resources */,
+				91B9D05327204B8D0082AB27 /* Poppins-ThinItalic.ttf in Resources */,
+				B22DBCC425C89E8500B4A455 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		145D0ADF4026190A9C767492 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TikTokRepost-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC409E8814D5F3F1F080C23B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TikTokRepost/Pods-TikTokRepost-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TikTokRepost/Pods-TikTokRepost-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TikTokRepost/Pods-TikTokRepost-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B22DBCB525C89E8500B4A455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29988DB261906BF00ADD709 /* PreviewController.swift in Sources */,
+				B2862D8C26ED0B7C00DF1160 /* DashboardCollectionViewCell.swift in Sources */,
+				B2D2640825F46D6B00E0620B /* SettingsController.swift in Sources */,
+				B295BCFC26A370B700E4B148 /* MediaCell.swift in Sources */,
+				B22DBD7625C961DF00B4A455 /* CoreData.xcdatamodeld in Sources */,
+				B2B7AD8526D2E05500143167 /* AdsManager.swift in Sources */,
+				D40C12A026EF6E8300E4D853 /* onBoarding1VC.swift in Sources */,
+				B2D2641325F46D9200E0620B /* ColorsCell.swift in Sources */,
+				B29FC9EE25CC3F4E003ECF77 /* BulletinManager.swift in Sources */,
+				B22DC97D25C979E4002B1D60 /* PlusButton.swift in Sources */,
+				B26C1FD926EE446200EB7451 /* ToolbarView.swift in Sources */,
+				B22DC98025C97A10002B1D60 /* AnimatedButton.swift in Sources */,
+				B2A67EA825C9AF0700A59089 /* TextFieldBulletinPage.swift in Sources */,
+				B2745EF726E56F3200B0E161 /* Post+CoreDataClass.swift in Sources */,
+				B2862D7C26ED0AB100DF1160 /* VideoListViewController.swift in Sources */,
+				B22DC97425C9732B002B1D60 /* Extensions.swift in Sources */,
+				B2A67E9625C9AD2E00A59089 /* MediaManager.swift in Sources */,
+				D40C12A226EF7CC200E4D853 /* onBoardin2VC.swift in Sources */,
+				B2862D8726ED0B0100DF1160 /* DataManager.swift in Sources */,
+				B22DC95325C96411002B1D60 /* Database.swift in Sources */,
+				B26C1FDC26EE44E500EB7451 /* Hashtag+CoreDataClass.swift in Sources */,
+				43575A8127A175B200E037F5 /* StoreKitOperations.swift in Sources */,
+				B26C1FDD26EE44E500EB7451 /* Hashtag+CoreDataProperties.swift in Sources */,
+				D40C12A626EF854C00E4D853 /* inAppVC.swift in Sources */,
+				B2862D8D26ED0B7C00DF1160 /* DashboardHeaderView.swift in Sources */,
+				D40C12A826F0CE1D00E4D853 /* settingsVC.swift in Sources */,
+				B2D2641425F46D9200E0620B /* SettingsCell.swift in Sources */,
+				B2D2641C25F46E9000E0620B /* AppConfig.swift in Sources */,
+				4369252226F3784100757026 /* Globals.swift in Sources */,
+				D40C12A426EF7E9600E4D853 /* onBoarding3VC.swift in Sources */,
+				B2862D8326ED0ADE00DF1160 /* MediaModel.swift in Sources */,
+				B2862D8B26ED0B7C00DF1160 /* VideoCollectionViewCell.swift in Sources */,
+				B2745EF826E56F3200B0E161 /* Post+CoreDataProperties.swift in Sources */,
+				B22DBCBD25C89E8500B4A455 /* AppDelegate.swift in Sources */,
+				B26C1FE326EE480F00EB7451 /* SearchUserController.swift in Sources */,
+				B2A67E9025C9ACA200A59089 /* RepostController.swift in Sources */,
+				B2D2641825F46DE400E0620B /* Settings.swift in Sources */,
+				91D49A34271EACED00AC7230 /* RepostPage.swift in Sources */,
+				B29988D82618F5CE00ADD709 /* StoreReviewHelper.swift in Sources */,
+				B2862D8426ED0ADE00DF1160 /* UserModel.swift in Sources */,
+				B2D2642025F46F2800E0620B /* CloseButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B22DBCC225C89E8500B4A455 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B22DBCC325C89E8500B4A455 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B22DBCC725C89E8600B4A455 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B22DBCC825C89E8600B4A455 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B22DBCCB25C89E8600B4A455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B22DBCCC25C89E8600B4A455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B22DBCCE25C89E8600B4A455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03278576D4BDDFBA1CC1FB19 /* Pods-TikTokRepost.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = UUAN4JVYG5;
+				INFOPLIST_FILE = "$(SRCROOT)/TikTokRepost/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiksaver.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B22DBCCF25C89E8600B4A455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C21C17AF98F90DE0A1C0DA /* Pods-TikTokRepost.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = UUAN4JVYG5;
+				INFOPLIST_FILE = "$(SRCROOT)/TikTokRepost/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiksaver.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B22DBCB425C89E8500B4A455 /* Build configuration list for PBXProject "TikTokRepost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22DBCCB25C89E8600B4A455 /* Debug */,
+				B22DBCCC25C89E8600B4A455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22DBCCD25C89E8600B4A455 /* Build configuration list for PBXNativeTarget "TikTokRepost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22DBCCE25C89E8600B4A455 /* Debug */,
+				B22DBCCF25C89E8600B4A455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		91B9D05A27205BC00082AB27 /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.12.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		91B9D05B27205BC00082AB27 /* Purchases */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91B9D05A27205BC00082AB27 /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = Purchases;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		B22DBD7425C961DF00B4A455 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B22DBD7525C961DF00B4A455 /* HashtagtsCoreData.xcdatamodel */,
+			);
+			currentVersion = B22DBD7525C961DF00B4A455 /* HashtagtsCoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B22DBCB125C89E8500B4A455 /* Project object */;
+}
