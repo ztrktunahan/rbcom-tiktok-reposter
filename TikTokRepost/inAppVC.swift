@@ -209,7 +209,7 @@ class inAppVC: UIViewController {
         let generator = UIImpactFeedbackGenerator(style: .medium)
         generator.impactOccurred()
         
-        if let url = URL(string: "https://www.neonapps.co/our-apps/tiktok-reposter/terms-of-use") {
+        if let url = URL(string: "https://www.appforce.xyz/terms-and-conditions-tik-saver") {
             if UIApplication.shared.canOpenURL(url) {
                 UIApplication.shared.open(url, options: [:])
             }
@@ -226,7 +226,7 @@ class inAppVC: UIViewController {
         let generator = UIImpactFeedbackGenerator(style: .medium)
         generator.impactOccurred()
         
-        if let url = URL(string: "https://www.neonapps.co/our-apps/tiktok-reposter/privacy-policy") {
+        if let url = URL(string: "https://www.appforce.xyz/privacy-policy-tik-saver") {
             if UIApplication.shared.canOpenURL(url) {
                 UIApplication.shared.open(url, options: [:])
             }

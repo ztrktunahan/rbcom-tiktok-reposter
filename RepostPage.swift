@@ -231,10 +231,11 @@ class RepostPage: UIViewController, UITextFieldDelegate {
     
 
     func loadMedia(from urlString: String) {
-        LoadingView.showLoadingView()
-       if let post = Database.shared.getPost(with: urlString) {
+        let view_loading = create_loading_view(view: self.view)
+        self.view.addSubview(view_loading)
+        if let post = Database.shared.getPost(with: urlString) {
            post.date = Date()
-           LoadingView.removeLoadingView()
+            view_loading.removeFromSuperview()
            presentPreviewController(with: post)
        } else {
 
@@ -254,7 +255,7 @@ class RepostPage: UIViewController, UITextFieldDelegate {
        }
        
    }
-
+   // https://www.tiktok.com/@cznburak/video/7057873591055977729?is_from_webapp=1&sender_device=pc&web_id7058235165991388673
     
     func presentPreviewController(with post: Post) {
         
